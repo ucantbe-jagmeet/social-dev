@@ -1,4 +1,6 @@
 import Image from "next/image";
+import PostInfo from "./PostInfo";
+import PostInteraction from "./PostInteraction";
 
 const Post = () => {
   return (
@@ -15,6 +17,7 @@ const Post = () => {
           />
           <span className="font-medium">Post 1 user</span>
         </div>
+        <PostInfo />
       </div>
       <div className="flex flex-col gap-4">
         <div className="w-full min-h-96 relative">
@@ -29,6 +32,7 @@ const Post = () => {
         </div>
         <p>Description goes here</p>
       </div>
+      <PostInteraction />
     </div>
   );
 };
