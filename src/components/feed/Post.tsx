@@ -1,6 +1,7 @@
 import Image from "next/image";
 import PostInfo from "./PostInfo";
 import PostInteraction from "./PostInteraction";
+import Comments from "./Comments";
 
 const Post = () => {
   return (
@@ -33,6 +34,7 @@ const Post = () => {
         <p>Description goes here</p>
       </div>
       <PostInteraction />
+      <Comments />
     </div>
   );
 };
