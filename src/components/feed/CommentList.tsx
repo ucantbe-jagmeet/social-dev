@@ -40,7 +40,7 @@ const CommentList = () => {
             className="w-10 h-10 rounded-full"
           />
           <div className="flex flex-col gap-2 flex-1">
-            <span className="font-medium">ucantbe-jagmeet</span>
+            <span className="font-medium">ucantbe jagmeet</span>
             <p>We done , enjoying to the full</p>
             <div className="flex items-center gap-8 text-xs text-gray-500 mt-2">
               <div className="flex items-center gap-4">
