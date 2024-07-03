@@ -7,7 +7,7 @@ const ProfileCard = async () => {
       <div className="h-20 relative">
         <Image
           src={
-            "https://images.pexels.com/photos/7266271/pexels-photo-7266271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            "https://images.pexels.com/photos/13812398/pexels-photo-13812398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           }
           alt=""
           fill
