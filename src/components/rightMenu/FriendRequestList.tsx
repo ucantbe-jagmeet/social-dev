@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const FriendRequestList = () => {
   return (
-    <main className="p-4 bg-white rounded-lg shadow-md text-sm flex flex-col gap-4">
+    <main className="">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-4">
           <Image
